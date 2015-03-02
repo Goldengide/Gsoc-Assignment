@@ -101,10 +101,10 @@ class GsocAssignment1 {
 
 	function XorDecryption($input1, $input2) {
 				
-             	$inputt = $this->input1($input1);
-             	$inputu = $this->input2($input2);
+             	$input1 = $this->input1($input1);
+             	$input2 = $this->input2($input2);
 
-				$result = $inputu + $inputt;
+				$result = $input1 + $input2;
 
 				//$result = int($result)
 				if($result == 65) {
