@@ -76,24 +76,7 @@ class GsocAssignment1 {
 
 
 
-	function input2($input) {
-
-		if($input == 'A') {
-
-			return 65;
-
-		}
-		elseif($input == '*' ) {
-			
-			return 42;
-
-		}
-		elseif($input == 'k' ) {
-			
-			return 107;
-
-		}
-	}
+	
 
 
 
@@ -102,7 +85,7 @@ class GsocAssignment1 {
 	function XorDecryption($input1, $input2) {
 				
              	$input1 = $this->input1($input1);
-             	$input2 = $this->input2($input2);
+             	$input2 = $this->input1($input2);
 
 				$result = $input1 + $input2;
 

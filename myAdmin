@@ -1,0 +1,71 @@
+Name
+
+What's your name?
+
+Location
+
+Where do you live? Which time zone?
+
+Education
+
+What are you studying?
+
+Email / IRC / Jabber
+
+Where can we contact you?
+
+WWW / Blog
+
+Do you have a home page or a blog?
+
+Synopsis
+
+A short description of your project.
+
+Benefits to the users
+
+What does your project bring to the users?
+
+Project Details
+
+A more detailed description.
+
+Deliverables
+
+What will be the final output from your project?
+
+Project Schedule
+
+Include a weekly timeline for your project. What do you expect to have ready for mid-term and final evaluation?
+
+Time
+
+How much time can you spend weekly on the project?
+
+Motivation
+
+What is your motivation for participating in Google Summer of Code?
+
+Bio
+
+Tell us about yourself, what you did in the past.
+
+Experiences
+
+What relevant experiences do you have? Do you know the technologies we use (MySQL, PHP, Git)?
+
+Open source contributions
+
+Have you ever contributed to an open source project, if so, to which project(s)?
+
+phpMyAdmin contributions
+
+Show us what you have contributed to phpMyAdmin so far. Please note that not providing any patch before GSoC, you most likely won't be accepted (see our applicant guide).
+
+Favorite phpMyAdmin feature
+
+What is your favorite phpMyAdmin feature?
+
+phpMyAdmin improvement
+
+What feature or improvement would make phpMyAdmin even better?
