@@ -291,7 +291,7 @@ for ($i=2; $i<$nth ; $i++) {
 		$primeno = 6*$nth+1;
 
 
-		
+
 		
 
 	}
