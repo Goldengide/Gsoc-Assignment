@@ -1,6 +1,8 @@
 <?php
 
 class GsocAssigment2 {
+
+
 //Assignment No. 1
 	public function palindrome($term) {
 			//return strrev($term);
@@ -28,6 +30,8 @@ class GsocAssigment2 {
 			return null;
 		}
 	}
+
+
 
 
 //Assignment No. 2
@@ -71,6 +75,8 @@ foreach ($fiboterms as $value) {
 		}
 
 	}
+
+
 
 //Assignment No. 3
 		function input($input) {
@@ -216,9 +222,8 @@ $code = array(
              	
 				return $term." returns ".$result." as ASCII code of \"$term\"";
 				
- 
-
 	}
+# End o fAssignment No. 3
 
 
 //Assignment No. 4
@@ -227,6 +232,8 @@ $code = array(
 
 
 	}
+
+
 
 //Assignment No. 5
 	public function pictureSpeaks() {
@@ -264,7 +271,11 @@ public function factorial($in) {
 
     return $out;
 }
-//7
+
+
+
+
+//Assignment No. 7
 	public function primeSequence1($nth) {
 		$intString = ' ';
 for ($i=2; $i<$nth ; $i++) { 
@@ -275,13 +286,11 @@ for ($i=2; $i<$nth ; $i++) {
 		}
 		else {
 
-			//return $nth."is a not prime no ";
+	
 
 		}
 }
-			return $intString." ";
-		
-		
+			return $intString." ";		
 
 	}
 
@@ -291,10 +300,11 @@ for ($i=2; $i<$nth ; $i++) {
 		$primeno = 6*$nth+1;
 
 
-
-		
-
 	}
+
+
+
+
 
 //Assignment No. 8
 
@@ -322,18 +332,15 @@ elseif (is_integer($fizzBuzz)) {
 
 
 
-
-
-	
-
 /** functions returns numbers not divided by divisor
 	@param $dividend the value of the number that is divided,
 	@return the value entered for $dividend argument if not divided by divisor
 */
-	function multiples($dividend) {
 
-		
-	}
+
+
+
+
 
 //Assignment No. 9
 	public function Armstrong($number) {
@@ -370,34 +377,38 @@ elseif (is_integer($fizzBuzz)) {
 
 
 	}
+
+
+
 //Assignment No. 10
-	public function BubbleSort() {
-		$input = array('1','2','8','6','13','27','41','3');
-for ($i=0; $i <count($input) ; $i++) {
-for ($j=0; $j <count($input)-1 ; $j++) {
-	if ($input[$j] > $input[$j+1]) {
-		$c = $input[$j];
-		$input[$j] = $input[$j+1];
-		$input[$j+1] = $c;
-			} 
-		elseif ($input[$j] <= $input[$j+1]) {
-			$input[$j] = $input[$j];
-			$input[$j+1] = $input[$j+1];
-		}
+	public function BubbleSort(array $arr) {
+	$n = sizeof($arr);    
+    for ($i = 1; $i < $n; $i++) {
+        $flag = false;
+        for ($j = $n - 1; $j >= $i; $j--) {
+            if($arr[$j-1] > $arr[$j]) {
+                $tmp = $arr[$j - 1];
+                $arr[$j - 1] = $arr[$j];
+                $arr[$j] = $tmp;
+                $flag = true;
+            }
+        }
+        if (!$flag) {
+            break;
+        }
+    }
+     
+   // return $arr;
+
+foreach ($arr as $value) {
 	
-	
+echo $value."\t";
 }
- $inputsorted[] = $input[$i];
 
-
-}
-foreach ($inputsorted as $value) {
-	
-echo $value." " ;
 }
 
 
-}
+
 }
 
 $test = new GsocAssigment2;
@@ -416,8 +427,6 @@ echo "<hr> 8) ".$test->Effizy("33");
 echo "<hr> 9) Test for Armstrong:".$test->Armstrong(222);
 $number = array('1','2','8','6','13','27','41','3');
 echo "<hr> 10) The sorted array is ";
-$test->BubbleSort();
- //echo gmp_strval(gmp_nextprime(10));
-
+$test->BubbleSort($number);
 
 ?>
