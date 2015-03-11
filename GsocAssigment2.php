@@ -1,7 +1,7 @@
 <?php
 
 class GsocAssigment2 {
-//1
+//Assignment No. 1
 	public function palindrome($term) {
 			//return strrev($term);
 		$count = strlen($term);
@@ -72,7 +72,7 @@ foreach ($fiboterms as $value) {
 
 	}
 
-//3
+//Assignment No. 3
 		function input($input) {
 
 $code = array(
@@ -221,21 +221,21 @@ $code = array(
 	}
 
 
-//4
+//Assignment No. 4
 	public function passcodeDerivation() {
 
 
 
 	}
 
-//5
+//Assignment No. 5
 	public function pictureSpeaks() {
 
 
 	}
 
 
-//6
+//Assignment No. 6
 	public function primeSum() {
 $number = 1000;
        // int j;
@@ -296,7 +296,7 @@ for ($i=2; $i<$nth ; $i++) {
 
 	}
 
-//8
+//Assignment No. 8
 
 	public function Effizy($fizzBuzz) {
  $fizzBuzz = intval($fizzBuzz);
@@ -335,7 +335,7 @@ elseif (is_integer($fizzBuzz)) {
 		
 	}
 
-//9
+//Assignment No. 9
 	public function Armstrong($number) {
 
 		if (is_int($number)) {
@@ -370,7 +370,7 @@ elseif (is_integer($fizzBuzz)) {
 
 
 	}
-//10
+//Assignment No. 10
 	public function BubbleSort() {
 		$input = array('1','2','8','6','13','27','41','3');
 for ($i=0; $i <count($input) ; $i++) {
